@@ -5,5 +5,5 @@ function getFirstSelector(selector) {
 
 function nestedTarget() {
   const variableTwo = document.querySelector('#app').querySelector('div#nested div div div div#target');
-  return variableTwo
+  return variableTwo;
 }
