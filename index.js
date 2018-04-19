@@ -13,6 +13,6 @@ function increaseRankBy(n) {
   const addition = n;
   for (let i  = 0; i < variableThree.length; i++) {
     let content = variableThree[i].textContent;
-    variableThree[i].innerHTML =  parseInt(content + addition);
+    variableThree[i].innerHTML =  parseInt(content) + n;
   }
 }
